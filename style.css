@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+   height: 100%;
+   overflow: hidden;
+}
+.frame {
+    display: flex;
+}
+
+.left-frame {
+    height: 900px;
+    width: 50%;
+    background: rgb(2, 28, 116);
+}
+
+/* Header */
+header {
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+header .logo img {
+    width: 40px;
+    margin: 10px;
+}
+
+
+/* Content Containers */
+.content-container {
+    height: 528px;
+    width: 100%;
+    /* background: rgb(211, 151, 79); */
+    display: flex;
+    justify-content: center;
+    margin-top: 159px;
+}
+.content {
+    height: 528px;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.content p {
+    color: #FCFCFD;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 5.07px;
+    padding-bottom: 36px;
+}
+form label {
+    color: #F9FAFB;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1 1 0;
+     height: 24px;
+     justify-content: flex-start;  */
+     /* align-items: center; */
+      gap: 18px; 
+}
+.content form input {
+    color: #344054;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+    flex: 1 1 0;
+     height: 24px;
+     justify-content: flex-start;
+}
+.content form .rem-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+    width: 100%;
+}
+.content form .rem-forgot .forgot-pasw {
+    background: transparent;
+    border: 1px solid transparent;
+    color: #F9FAFB;
+    cursor: pointer;
+}
+.content form input[type="checkbox"] {
+    width: 30px;
+    height: 14px;
+}
+.content form .signin-signup  {
+    height: 131px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 19px;
+   
+}
+.content form .signin-signup  button{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 55px;
+    cursor: pointer;
+}
+.content form .signin-signup .sign-in {
+    background: #FF406D;
+     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+     border: transparent;
+}
+.content form .signin-signup .sign-in:hover {
+    background: transparent;
+    border: 1px solid #FF406D;
+}
+.content form .signin-signup .sign-up {
+    background: transparent;
+     border: 1px solid #FF406D;
+}
+.content form .signin-signup .sign-up:hover {
+    background: #FF406D;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border: transparent;
+}
+/* footer */
+footer {
+    height: 53px;
+    width: 100%;
+    /* background-color: rgb(116, 163, 204); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+footer p {
+    color: #717171;
+font-size: 14px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 1.82px;
+
+}
+
+
+/* right section image */
+.right {
+    height: 900px;
+    width: 50%;
+    background: rgb(2, 28, 116);
+}
+.right .right-section img {
+    height: 899px;
+  width: 100%;
+}
